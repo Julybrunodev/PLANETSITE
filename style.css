@@ -1,0 +1,248 @@
+
+body{
+    
+    background-color: azure;
+     margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    overflow-y: hidden;
+    background-color: rgb(9, 8, 10);
+    
+}
+
+.textlogin{
+    top: 180px;
+    position: absolute;
+    left: 11.5%;
+    border: none;
+   
+}
+
+.textlogin2{
+    top: 300px;
+    position: absolute;
+    left: 11.5%;
+    
+    
+}
+
+.botao{
+   user-select: none;
+    top: 400px;
+    position: absolute;
+    left: 145px;
+    border: none;
+    border-radius: 20px;
+    width: 102px;
+    height: 30px;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px rgb(9, 219, 114);
+    color: rgb(9, 219, 104);
+    transition: 0.7s;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0px 0px 3px;
+    letter-spacing: 5px;
+    padding-top: 6px;
+    padding-left: 12px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.card{
+    display: flex;
+    position: absolute;
+    background: linear-gradient( rgb(17, 15, 20), rgb(25, 0, 71));
+    height: 500px;
+    width: 400px;
+    left: 755px;
+    top: 220px;
+    border-radius: 4%;
+    border: solid rgb(55, 9, 219);
+    box-shadow: 0px 10px 35px rgb(55, 9, 219);
+
+    
+}
+ 
+.textlogin > input{
+ 
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(55, 9, 219);
+    padding-left: 15px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    margin: -10px 0px 0px;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+}
+
+.textlogin2 > input{
+   
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(55, 9, 219);
+    padding-left: 15px;
+    
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+
+}
+
+.botao:hover{
+    
+    top: 400px;
+    position: absolute;
+    left: 145px;
+    border: none;
+    border-radius: 20px;
+    width: 102px;
+    height: 30px;
+    background-color: rgba(9, 212, 219, 0);
+    box-shadow: 0px 0px 10px rgb(9, 219, 114);
+    color: rgb(9, 219, 114);
+    transition: 0.7s;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0px 0px 5px;
+    letter-spacing: 5px;
+    padding-top: 6px;
+    padding-left: 12px;
+    text-decoration: none;
+    
+
+}
+
+ .textlogin label{
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top:0px;
+    color: rgb(19, 19, 19);
+    font-family: 'Kanit', sans-serif;
+    transition: .5s;
+    pointer-events: none;
+ }
+
+ .textlogin2 label{
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top:10px;
+    color: rgb(19, 19, 19);
+    font-family: 'Kanit', sans-serif;
+    transition: .5s;
+    pointer-events: none;
+ }
+
+.textlogin input:focus ~ label,
+.textlogin input:valid ~ label{
+   
+    user-select: none;
+    color: transparent;
+    left: 20px;
+    letter-spacing: 20px;
+}
+
+.textlogin2 input:focus ~ label,
+.textlogin2 input:valid ~ label{
+   
+    user-select: none;
+    color: transparent;
+    left: 20px;
+    letter-spacing: 20px;
+}
+
+.textlogin > input{
+    color: rgb(67, 245, 97);
+  
+}
+
+.textlogin2 > input{
+    color: rgb(67, 245, 97);
+}
+
+.fundo{
+    background-image: linear-gradient( rgb(55, 9, 219),rgb(0, 255, 76));
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    z-index: -10;
+    border-radius: 50%;
+    top: 600px;
+    left: -220px;
+}
+
+
+
+.fundo2{
+    
+    z-index: 100;
+    position: absolute;
+    width: 1800px;
+    height: 1800px;
+    z-index: -10;
+  border-radius: 49%;
+    top: 300px;
+    left: -400px;
+    color: transparent;
+    border: solid rgb(55, 9, 219)30px;
+   
+}
+
+
+
+
+.fundo3{
+    z-index: 100;
+    position: absolute;
+    width: 1700px;
+    height: 1700px;
+    z-index: -10;
+  border-radius: 49%;
+    top: 375px;
+    left: -325px;
+    color: transparent;
+    border: solid rgb(9, 219, 209)3px;
+}
+
+.ima{
+    user-select: none; 
+    pointer-events: none;
+    position: absolute;
+    z-index: -11;
+    width: 100%;
+    opacity: 0.2;
+    
+}
+
+.planeta{
+    position: absolute;
+    left: 1085px;
+    width: 150px;
+    top: 155px;
+    z-index: 10;
+    user-select: none; 
+    pointer-events: none;
+}
+
+.planeta2{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient(rgb(55, 9, 219),rgb(0, 255, 128));
+    border-radius: 50%;
+    left: 1097px;
+    top: 167px;
+    border: solid rgb(55, 9, 219);
+    box-shadow: 0px 10px 35px rgb(55, 9, 219);
+    
+}
