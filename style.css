@@ -55,7 +55,7 @@ body{
 .card{
     display: flex;
     position: absolute;
-    background: linear-gradient( rgb(17, 15, 20), rgb(25, 0, 71));
+    background: linear-gradient( rgba(17, 15, 20, 0), rgb(25, 0, 71));
     height: 500px;
     width: 400px;
     left: 755px;
@@ -63,6 +63,7 @@ body{
     border-radius: 4%;
     border: solid rgb(55, 9, 219);
     box-shadow: 0px 10px 35px rgb(55, 9, 219);
+    backdrop-filter: blur(6px);
 
     
 }
@@ -226,9 +227,9 @@ body{
 
 .planeta{
     position: absolute;
-    left: 1085px;
+    left: 300px;
     width: 150px;
-    top: 155px;
+    top: -70px;
     z-index: 10;
     user-select: none; 
     pointer-events: none;
@@ -240,8 +241,8 @@ body{
     width: 120px;
     background-image: linear-gradient(rgb(55, 9, 219),rgb(0, 255, 128));
     border-radius: 50%;
-    left: 1097px;
-    top: 167px;
+    left: 311px;
+    top: -57px;
     border: solid rgb(55, 9, 219);
     box-shadow: 0px 0px 25px rgb(55, 9, 219);
     

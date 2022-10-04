@@ -38,6 +38,8 @@
 <body>
    <div class="loginmain">
       <div class="card">
+         <img class="planeta" src="pngegg(1).png" >
+         <div class="planeta2"></div>
          <div class="textlogin">
            <input type="text"  required="required">
            <label>USUARIO</label>
@@ -51,14 +53,20 @@
       </div>
   </div>
   <img class="ima" src="starfall-gif-29.gif" >
-  <img class="planeta" src="pngegg(1).png" >
-  <div class="planeta2"></div>
+  
   <div class="fundo"></div>
   <div class="fun"></div>
   <div class="fundo2"></div>
   <div class="fundo3"></div>
   
   
-  
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+   VanillaTilt.init(document.querySelector(".card"), {
+		max: 10,
+		speed: 400,
+     
+	});
+  </script>
 </body>
 </html>
