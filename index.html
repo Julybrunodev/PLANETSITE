@@ -5,35 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style.css">
-    <title>SITE PHP</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>SITELOGIN</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    
 </head>
 <body>
    <div class="loginmain">
@@ -62,12 +40,29 @@
   
   <script type="text/javascript" src="vanilla-tilt.js"></script>
   <script>
-   VanillaTilt.init(document.querySelector(".card"), {
-		max: 10,
+   VanillaTilt.init(document.querySelector(".fundo2"), {
+		max: 0.5,
+		speed: 1000,
+      
+	});
+
+   VanillaTilt.init(document.querySelector(".fundo3"), {
+		max: 0.5,
 		speed: 1000,
       
 	});
    
+   VanillaTilt.init(document.querySelector(".fundo"), {
+		max: 2.5,
+		speed: 1000,
+      
+	});
+  </script>
+
+  <script>
+   ScrollReveal({ reset: true, distance: '60px', duration: 2500, delay: 300 });
+
+   ScrollReveal().reveal('.card', { delay: 200, origin: 'top' });
   </script>
 </body>
 </html>
